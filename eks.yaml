@@ -2,7 +2,7 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: expense-1
+  name: expense
   region: us-east-1
 
 # nodeGroups:
@@ -32,4 +32,5 @@ manageNodeGroups:
 #kubectl version --client
 
 #aws configure
+#eksctl create cluster --config-file=eks.yaml
 
